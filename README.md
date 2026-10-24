@@ -4,6 +4,20 @@
 
 An interactive Three.js aquascape with ray-traced refraction, schooling neon tetras and procedural aquatic plants.
 
+[![鱼缸演示预览](docs/media/aquarium-preview.gif)](https://github.com/Candela683/stillwater-aquarium/raw/refs/heads/main/docs/media/aquarium-demo.mp4)
+
+[观看 / 下载 24 秒 1080p 演示](https://github.com/Candela683/stillwater-aquarium/raw/refs/heads/main/docs/media/aquarium-demo.mp4) · [正面截图](docs/media/aquarium-front.png)
+
+演示来自本项目的实际 WebGL 画布，采用固定时间步长逐帧导出，再合成为 30 fps 视频；包含镜头环绕和一次鱼群惊吓，不代表设备的实时帧率。录制日期：2026-10-24。
+
+<details>
+<summary>高清截图</summary>
+
+![鱼缸全景](docs/media/aquarium-overview.png)
+![正面视角](docs/media/aquarium-front.png)
+
+</details>
+
 ## 本地运行
 
 需要 Node.js 22.12+，以及支持 WebGL 2 的浏览器。推荐在启用硬件加速的 Chrome / Edge 中打开。
@@ -31,7 +45,7 @@ npm run preview
 | `S` | 下载当前画面的 PNG 截图 |
 | `R` | 录制并下载 24 秒、1920 × 1080 的自动镜头演示 |
 
-录制只捕获鱼缸画布，没有桌面内容或麦克风。演示缓慢移动镜头，并在中段触发一次鱼群惊吓。浏览器支持时输出 MP4，否则输出 WebM；目标采样率为 30 fps，实际流畅度取决于 GPU 和渲染速度。录制结束后恢复原视角与窗口分辨率。
+快捷键录制只捕获鱼缸画布，没有桌面内容或麦克风。演示缓慢移动镜头，并在中段触发一次鱼群惊吓。浏览器支持时输出 MP4，否则输出 WebM；目标采样率为 30 fps，实际流畅度取决于 GPU 和渲染速度。录制时请保持鱼缸标签页在前台，避免浏览器暂停动画。录制结束后恢复原视角与窗口分辨率。
 
 ## 实现
 

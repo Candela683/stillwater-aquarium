@@ -66,7 +66,9 @@ export function installCapture({
       });
       const began = performance.now();
       let startled = false;
+      let tourFrames = 0;
       function tour() {
+        tourFrames++;
         const progress = Math.min((performance.now() - began) / duration, 1);
         const eased = progress * progress * (3 - 2 * progress),
           angle = 0.52 - 0.82 * eased;
@@ -89,6 +91,9 @@ export function installCapture({
       await new Promise((resolve) => setTimeout(resolve, duration));
       recorder.stop();
       const blob = await done;
+      if (tourFrames < 10) {
+        throw new Error("Browser paused the animation. Keep the aquarium tab visible while recording.");
+      }
       save(
         blob,
         `aquarium-demo.${blob.type.startsWith("video/mp4") ? "mp4" : "webm"}`,
