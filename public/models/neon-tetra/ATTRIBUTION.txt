@@ -1,0 +1,7 @@
+Neon Tetra Automated Swimming Rig
+Author: AeroPlankton (AeroPlankton3D)
+Source: https://sketchfab.com/3d-models/neon-tetra-automated-swimming-rig-22cddb626d9f417e9baec7894e86cb73
+License: Creative Commons Attribution 4.0
+https://creativecommons.org/licenses/by/4.0/
+Imported from the archive supplied by the user.
+Changes: axis and scale normalization, shared sampled skeletal animation, iridescent material, and BVH ray intersection integration.
