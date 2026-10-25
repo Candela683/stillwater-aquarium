@@ -4,7 +4,7 @@
 
 - Source: https://madebyevan.com/webgl-water/
 - Copyright 2011 Evan Wallace. MIT license; full license text is retained in `LICENSE`.
-- The current Three.js implementation adapts finite-difference water dynamics and reflect/refract/Fresnel concepts, and adds BVH scene intersections, plants, animated fish and a glass aquarium. It is not the unchanged original demo.
+- Adaptations: finite-difference water simulation and reflection, refraction and Fresnel calculations integrated with Three.js and BVH scene intersections.
 
 ## Neon Tetra Automated Swimming Rig — AeroPlankton
 
@@ -12,8 +12,8 @@
 - Author: AeroPlankton (AeroPlankton3D).
 - License: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/).
 - Files: `public/models/neon-tetra/` (glTF, binary geometry/animation and texture).
-- Changes: axis/scale normalization, cached skeletal poses, procedural body bending, iridescent material and ray-intersection integration. Original supplied asset files are included with their attribution.
-- Keep this credit and license link when redistributing the asset or screenshots/video substantially featuring it. No endorsement by the original author is implied.
+- Changes: axis/scale normalization, cached skeletal poses, procedural body bending, iridescent material and ray-intersection integration.
+- Retain attribution and the license link when sharing the asset or renders featuring it.
 
 ## Rock 07 — Jenelle van Heerden / Poly Haven
 
@@ -24,8 +24,8 @@
 
 ## Dependencies
 
-Three.js, three-mesh-bvh and Vite are installed by npm. Their original licenses remain in their respective packages. `package-lock.json` pins the tested dependency tree.
+Three.js, three-mesh-bvh and Vite retain their respective licenses in their npm packages. `package-lock.json` records dependency versions.
 
 ## Procedural plant references
 
-The plants are generated in code, not redistributed photographs or downloaded plant models. Parameter inheritance and stochastic variation are inspired by [Hanan's parametric L-systems](https://algorithmicbotany.org/papers/hanan.dis1992.html); this is not a complete L-system implementation. Species references include [Limnophila sessiliflora](https://plant-directory.ifas.ufl.edu/plant-directory/limnophila-sessiliflora/) and [Glossostigma elatinoides](https://www.nparks.gov.sg/florafaunaweb/flora/5/8/5826).
+Procedural plant growth uses parameter inheritance and stochastic variation inspired by [Hanan's parametric L-systems](https://algorithmicbotany.org/papers/hanan.dis1992.html). Species references include [Limnophila sessiliflora](https://plant-directory.ifas.ufl.edu/plant-directory/limnophila-sessiliflora/) and [Glossostigma elatinoides](https://www.nparks.gov.sg/florafaunaweb/flora/5/8/5826).

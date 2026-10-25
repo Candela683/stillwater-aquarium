@@ -1,6 +1,6 @@
 Rock 07 — Jenelle van Heerden / Poly Haven
 Source: https://polyhaven.com/a/rock_07
 License: CC0 — https://polyhaven.com/license
-Official 1K glTF and texture set, downloaded 2026-10-24.
+1K glTF model and textures.
 Modified: simplified from 14,844 to 3,766 triangles, normalized and scaled for aquarium composition.
 The original model and textures are retained in this directory.

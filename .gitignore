@@ -4,5 +4,5 @@ dist/
 .env
 .env.*
 .DS_Store
-# The native 4K video master is distributed through GitHub Releases.
+# 4K video: GitHub Releases
 docs/media/aquarium-demo-4k.mp4
