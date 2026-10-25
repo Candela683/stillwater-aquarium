@@ -4,9 +4,9 @@
 
 基于 Three.js 的交互式水族箱，包含水体折射、鱼群行为模拟和程序化水草。
 
-[![鱼缸演示](docs/media/aquarium-preview.gif)](https://github.com/Candela683/stillwater-aquarium/releases/latest/download/aquarium-demo-4k.mp4)
+[![静水鱼缸全景](docs/media/aquarium-hero.png)](docs/media/aquarium-hero.png)
 
-[4K 演示](https://github.com/Candela683/stillwater-aquarium/releases/latest/download/aquarium-demo-4k.mp4) · [1080p 演示](https://github.com/Candela683/stillwater-aquarium/raw/refs/heads/main/docs/media/aquarium-demo.mp4) · [正面截图](docs/media/aquarium-front.png)
+[4K 演示](https://github.com/Candela683/stillwater-aquarium/releases/latest/download/aquarium-demo-4k.mp4) · [1080p 演示](https://github.com/Candela683/stillwater-aquarium/raw/refs/heads/main/docs/media/aquarium-demo.mp4) · [动态预览](docs/media/aquarium-preview.gif) · [正面截图](docs/media/aquarium-front.png)
 
 ## 高清截图
 

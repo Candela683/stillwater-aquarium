@@ -4,6 +4,7 @@
 
 | 文件 | 规格 |
 | --- | --- |
+| [鱼缸主图](aquarium-hero.png) | 1920 × 1440，PNG |
 | [水草造景](aquarium-overview.png) | 3200 × 1904，PNG |
 | [正面近景](aquarium-front.png) | 3200 × 2000，PNG |
 | [背面视角](aquarium-rear.png) | 3200 × 1904，PNG |

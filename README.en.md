@@ -4,9 +4,9 @@
 
 An interactive Three.js aquarium with water refraction, schooling fish, and procedural aquatic plants.
 
-[![Aquarium demo](docs/media/aquarium-preview.gif)](https://github.com/Candela683/stillwater-aquarium/releases/latest/download/aquarium-demo-4k.mp4)
+[![Stillwater Aquarium overview](docs/media/aquarium-hero.png)](docs/media/aquarium-hero.png)
 
-[4K demo](https://github.com/Candela683/stillwater-aquarium/releases/latest/download/aquarium-demo-4k.mp4) · [1080p demo](https://github.com/Candela683/stillwater-aquarium/raw/refs/heads/main/docs/media/aquarium-demo.mp4) · [Front view](docs/media/aquarium-front.png)
+[4K demo](https://github.com/Candela683/stillwater-aquarium/releases/latest/download/aquarium-demo-4k.mp4) · [1080p demo](https://github.com/Candela683/stillwater-aquarium/raw/refs/heads/main/docs/media/aquarium-demo.mp4) · [Animated preview](docs/media/aquarium-preview.gif) · [Front view](docs/media/aquarium-front.png)
 
 ## Screenshots
 
