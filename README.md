@@ -12,23 +12,27 @@
 
 **水草造景**
 
-[![水草造景近景](docs/media/aquarium-detail-aquascape.png)](docs/media/aquarium-detail-aquascape.png)
+[![水草造景全景](docs/media/aquarium-overview.png)](docs/media/aquarium-overview.png)
 
-**霓虹灯鱼与宝塔草**
+**正面近景**
 
-[![霓虹灯鱼与宝塔草细节](docs/media/aquarium-detail-school.png)](docs/media/aquarium-detail-school.png)
+[![霓虹灯鱼与水草近景](docs/media/aquarium-front.png)](docs/media/aquarium-front.png)
 
-**珍珠草与牛毛草**
+**背面视角**
 
-[![珍珠草叶片与牛毛草草坪细节](docs/media/aquarium-detail-plants.png)](docs/media/aquarium-detail-plants.png)
+[![背面水草造景](docs/media/aquarium-rear.png)](docs/media/aquarium-rear.png)
 
-<details>
-<summary>全景视角</summary>
+**侧面视角**
 
-![鱼缸全景](docs/media/aquarium-overview.png)
-![正面视角](docs/media/aquarium-front.png)
+[![侧面鱼群与水草](docs/media/aquarium-side.png)](docs/media/aquarium-side.png)
 
-</details>
+**水面折射**
+
+[![水面折射与倒影](docs/media/aquarium-surface.png)](docs/media/aquarium-surface.png)
+
+**俯视视角**
+
+[![俯视鱼缸与灯光](docs/media/aquarium-top.png)](docs/media/aquarium-top.png)
 
 ## 功能
 
@@ -62,7 +66,8 @@ npm run preview # 预览构建结果
 | 拖动 | 环绕观察 |
 | 滚轮 / 双指缩放 | 调整观察距离 |
 | 点击鱼群附近 | 触发局部惊吓与水面扰动 |
-| `S` | 保存 PNG 截图 |
+| `1` / `2` / `3` | 切换造景、鱼群、水草近景 |
+| `S` | 保存 3840 × 2160 PNG 截图 |
 | `R` | 导出 24 秒的 1080p 演示视频 |
 
 ## 代码结构

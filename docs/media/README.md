@@ -4,11 +4,12 @@
 
 | 文件 | 规格 |
 | --- | --- |
-| [水草造景近景](aquarium-detail-aquascape.png) | 1920 × 1080，PNG |
-| [霓虹灯鱼与宝塔草](aquarium-detail-school.png) | 1280 × 720，PNG |
-| [珍珠草与牛毛草](aquarium-detail-plants.png) | 1280 × 720，PNG |
-| [全景截图](aquarium-overview.png) | 3200 × 1729，PNG |
-| [正面截图](aquarium-front.png) | 1920 × 1080，PNG |
+| [水草造景](aquarium-overview.png) | 3200 × 1904，PNG |
+| [正面近景](aquarium-front.png) | 3200 × 2000，PNG |
+| [背面视角](aquarium-rear.png) | 3200 × 1904，PNG |
+| [侧面视角](aquarium-side.png) | 3200 × 2000，PNG |
+| [水面折射](aquarium-surface.png) | 3200 × 1904，PNG |
+| [俯视视角](aquarium-top.png) | 3200 × 1904，PNG |
 | [演示预览](aquarium-preview.gif) | 640 × 360，GIF |
 | [1080p 演示](aquarium-demo.mp4) | 1920 × 1080，30 fps，24 秒，MP4 |
 | [4K 演示](https://github.com/Candela683/stillwater-aquarium/releases/latest/download/aquarium-demo-4k.mp4) | 3840 × 2160，30 fps，24 秒，MP4 |

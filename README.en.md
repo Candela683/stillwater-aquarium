@@ -12,23 +12,27 @@ An interactive Three.js aquarium with water refraction, schooling fish, and proc
 
 **Aquascape**
 
-[![Aquascape close-up](docs/media/aquarium-detail-aquascape.png)](docs/media/aquarium-detail-aquascape.png)
+[![Aquascape overview](docs/media/aquarium-overview.png)](docs/media/aquarium-overview.png)
 
-**Neon tetras and ambulia**
+**Front close-up**
 
-[![Neon tetras swimming among ambulia](docs/media/aquarium-detail-school.png)](docs/media/aquarium-detail-school.png)
+[![Neon tetras and aquatic plants](docs/media/aquarium-front.png)](docs/media/aquarium-front.png)
 
-**Pearlweed and hairgrass**
+**Rear view**
 
-[![Pearlweed leaves and hairgrass carpet](docs/media/aquarium-detail-plants.png)](docs/media/aquarium-detail-plants.png)
+[![Aquascape from the rear](docs/media/aquarium-rear.png)](docs/media/aquarium-rear.png)
 
-<details>
-<summary>Full views</summary>
+**Side view**
 
-![Aquarium overview](docs/media/aquarium-overview.png)
-![Front view](docs/media/aquarium-front.png)
+[![Fish and plants from the side](docs/media/aquarium-side.png)](docs/media/aquarium-side.png)
 
-</details>
+**Surface refraction**
+
+[![Water refraction and reflections](docs/media/aquarium-surface.png)](docs/media/aquarium-surface.png)
+
+**Top view**
+
+[![Aquarium and light from above](docs/media/aquarium-top.png)](docs/media/aquarium-top.png)
 
 ## Features
 
@@ -62,7 +66,8 @@ npm run preview # Preview the build
 | Drag | Orbit the camera |
 | Scroll / pinch | Adjust viewing distance |
 | Click near the fish | Trigger a local startle response and surface ripples |
-| `S` | Save a PNG screenshot |
+| `1` / `2` / `3` | Switch to aquascape, fish, or plant close-ups |
+| `S` | Save a 3840 × 2160 PNG screenshot |
 | `R` | Export a 24-second 1080p demo video |
 
 ## Project structure
