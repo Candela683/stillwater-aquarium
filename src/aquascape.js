@@ -331,6 +331,7 @@ installTankClicks({
   onRipple: (point) => drop(point.x, point.z),
 });
 addEventListener("resize", () => {
+  if (capturePaused) return;
   camera.aspect = innerWidth / innerHeight;
   camera.updateProjectionMatrix();
   r.setSize(innerWidth, innerHeight);
@@ -408,11 +409,22 @@ const rayWater = installRayWater({
   heightfield: h,
   fieldSize: N,
 });
+let capturePaused = false;
 installCapture({
   renderer: r,
   camera,
   controls,
   render: () => r.render(scene, camera),
+  pause: () => {
+    capturePaused = true;
+    return () => {
+      capturePaused = false;
+      clock.getDelta();
+      camera.aspect = innerWidth / innerHeight;
+      camera.updateProjectionMatrix();
+      r.setSize(innerWidth, innerHeight);
+    };
+  },
   startle: () =>
     startleSchool(
       fish,
@@ -424,6 +436,7 @@ installCapture({
 
 function frame() {
   requestAnimationFrame(frame);
+  if (capturePaused) return;
   let dt = Math.min(clock.getDelta(), 0.04);
   elapsed += dt;
   acc += dt;

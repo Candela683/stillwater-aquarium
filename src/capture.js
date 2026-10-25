@@ -1,12 +1,14 @@
-// Capture only this aquarium canvas. No microphone, desktop or other tabs.
+import { detailViews, renderStill } from "./still-capture.js";
+
 export function installCapture({
   renderer,
   camera,
   controls,
   render,
+  pause,
   startle,
 }) {
-  let recording = false;
+  let recording = false, capturing = false, viewName = "view";
   function save(blob, name) {
     const url = URL.createObjectURL(blob),
       link = document.createElement("a");
@@ -16,16 +18,18 @@ export function installCapture({
     setTimeout(() => URL.revokeObjectURL(url), 60000);
   }
   async function screenshot() {
-    render();
-    const blob = await new Promise((resolve) =>
-      renderer.domElement.toBlob(resolve, "image/png"),
-    );
-    if (!blob) throw new Error("Screenshot encoding failed");
-    save(blob, "aquarium-screenshot.png");
-    return blob;
+    if (recording || capturing) return;
+    capturing = true;
+    try {
+      const blob = await renderStill({ renderer, camera, controls, render, pause });
+      save(blob, `aquarium-detail-${viewName}-4k.png`);
+      return blob;
+    } finally {
+      capturing = false;
+    }
   }
   async function recordTour({ duration = 24000 } = {}) {
-    if (recording) return;
+    if (recording || capturing) return;
     if (!globalThis.MediaRecorder || !renderer.domElement.captureStream)
       throw new Error("Canvas recording is unavailable in this browser");
     recording = true;
@@ -35,11 +39,12 @@ export function installCapture({
     const oldRatio = renderer.getPixelRatio(),
       oldWidth = renderer.domElement.width / oldRatio,
       oldHeight = renderer.domElement.height / oldRatio;
-    const oldAspect = camera.aspect;
+    const oldAspect = camera.aspect, oldFov = camera.fov;
     // Record at an explicit 1920 x 1080; the normal viewport is restored afterward.
     renderer.setPixelRatio(2);
     renderer.setSize(960, 540, false);
     camera.aspect = 16 / 9;
+    camera.fov = 37;
     camera.updateProjectionMatrix();
     controls.enabled = false;
     const format = [
@@ -106,6 +111,7 @@ export function installCapture({
       renderer.setPixelRatio(oldRatio);
       renderer.setSize(oldWidth, oldHeight, false);
       camera.aspect = oldAspect;
+      camera.fov = oldFov;
       camera.updateProjectionMatrix();
       camera.position.copy(oldPosition);
       controls.target.copy(oldTarget);
@@ -124,6 +130,16 @@ export function installCapture({
       event.target instanceof HTMLTextAreaElement
     )
       return;
+    const view = detailViews[event.key];
+    if (view && !recording && !capturing) {
+      viewName = view.name;
+      camera.position.set(...view.position);
+      controls.target.set(...view.target);
+      camera.fov = view.fov;
+      camera.updateProjectionMatrix();
+      camera.lookAt(controls.target);
+      controls.update();
+    }
     if (event.key.toLowerCase() === "s") screenshot().catch(console.error);
     if (event.key.toLowerCase() === "r") recordTour().catch(console.error);
   });
