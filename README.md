@@ -1,5 +1,7 @@
 # Stillwater Aquarium · 静水鱼缸
 
+**简体中文** · [English](README.en.md)
+
 基于 Three.js 的交互式水族箱，包含水体折射、鱼群行为模拟和程序化水草。
 
 [![鱼缸演示](docs/media/aquarium-preview.gif)](https://github.com/Candela683/stillwater-aquarium/releases/latest/download/aquarium-demo-4k.mp4)
