@@ -4,6 +4,9 @@
 
 | 文件 | 规格 |
 | --- | --- |
+| [水草造景近景](aquarium-detail-aquascape.png) | 1920 × 1080，PNG |
+| [霓虹灯鱼与宝塔草](aquarium-detail-school.png) | 1280 × 720，PNG |
+| [珍珠草与牛毛草](aquarium-detail-plants.png) | 1280 × 720，PNG |
 | [全景截图](aquarium-overview.png) | 3200 × 1729，PNG |
 | [正面截图](aquarium-front.png) | 1920 × 1080，PNG |
 | [演示预览](aquarium-preview.gif) | 640 × 360，GIF |

@@ -6,8 +6,22 @@
 
 [4K 演示](https://github.com/Candela683/stillwater-aquarium/releases/latest/download/aquarium-demo-4k.mp4) · [1080p 演示](https://github.com/Candela683/stillwater-aquarium/raw/refs/heads/main/docs/media/aquarium-demo.mp4) · [正面截图](docs/media/aquarium-front.png)
 
+## 高清截图
+
+**水草造景**
+
+[![水草造景近景](docs/media/aquarium-detail-aquascape.png)](docs/media/aquarium-detail-aquascape.png)
+
+**霓虹灯鱼与宝塔草**
+
+[![霓虹灯鱼与宝塔草细节](docs/media/aquarium-detail-school.png)](docs/media/aquarium-detail-school.png)
+
+**珍珠草与牛毛草**
+
+[![珍珠草叶片与牛毛草草坪细节](docs/media/aquarium-detail-plants.png)](docs/media/aquarium-detail-plants.png)
+
 <details>
-<summary>截图</summary>
+<summary>全景视角</summary>
 
 ![鱼缸全景](docs/media/aquarium-overview.png)
 ![正面视角](docs/media/aquarium-front.png)
