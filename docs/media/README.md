@@ -9,6 +9,7 @@
 | [背面视角](aquarium-rear.png) | 3200 × 1904，PNG |
 | [侧面视角](aquarium-side.png) | 3200 × 2000，PNG |
 | [水面折射](aquarium-surface.png) | 3200 × 1904，PNG |
+| [水面近景](aquarium-surface-detail.png) | 3200 × 1904，PNG |
 | [俯视视角](aquarium-top.png) | 3200 × 1904，PNG |
 | [演示预览](aquarium-preview.gif) | 640 × 360，GIF |
 | [1080p 演示](aquarium-demo.mp4) | 1920 × 1080，30 fps，24 秒，MP4 |

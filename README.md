@@ -30,6 +30,10 @@
 
 [![水面折射与倒影](docs/media/aquarium-surface.png)](docs/media/aquarium-surface.png)
 
+**水面近景**
+
+[![水面近景中的鱼群与水草](docs/media/aquarium-surface-detail.png)](docs/media/aquarium-surface-detail.png)
+
 **俯视视角**
 
 [![俯视鱼缸与灯光](docs/media/aquarium-top.png)](docs/media/aquarium-top.png)

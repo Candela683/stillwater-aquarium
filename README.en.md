@@ -30,6 +30,10 @@ An interactive Three.js aquarium with water refraction, schooling fish, and proc
 
 [![Water refraction and reflections](docs/media/aquarium-surface.png)](docs/media/aquarium-surface.png)
 
+**Surface close-up**
+
+[![Fish and plants beneath the water surface](docs/media/aquarium-surface-detail.png)](docs/media/aquarium-surface-detail.png)
+
 **Top view**
 
 [![Aquarium and light from above](docs/media/aquarium-top.png)](docs/media/aquarium-top.png)
