@@ -1,6 +1,8 @@
 # Demo media
 
-Captured from this project's WebGL renderer on 2026-10-24.
+Captured from this project's WebGL renderer: the original 1080p media on 2026-10-24, and the native 4K master on 2026-10-25.
+
+[Download the native 4K MP4](https://github.com/Candela683/stillwater-aquarium/releases/download/showcase-4k-2026-10-25/aquarium-demo-4k.mp4) · [Release and SHA-256](https://github.com/Candela683/stillwater-aquarium/releases/tag/showcase-4k-2026-10-25)
 
 | File | Contents |
 | --- | --- |
@@ -8,6 +10,9 @@ Captured from this project's WebGL renderer on 2026-10-24.
 | aquarium-front.png | Front view from exported frame 400, 1920 × 1080 |
 | aquarium-demo.mp4 | 24 seconds, 1920 × 1080, 30 fps, H.264; 720 rendered frames |
 | aquarium-preview.gif | 640 × 360, 10 fps preview for the GitHub README |
+| aquarium-demo-4k.mp4 (GitHub Releases) | Native 3840 × 2160, 24 seconds, 30 fps, H.264; 720 rendered frames |
+
+The 4K master is hosted as a release asset. Each source frame was rendered directly into a 3840 × 2160 WebGL drawing buffer. The normal interactive viewport is restored after export.
 
 The video advances the actual scene at fixed 1/30-second simulation steps. The camera moves around the front of the tank, with a local fish-startle event at frame 332 (11.07 seconds). It is an animation export, not a recording of the desktop or a real-time GPU performance measurement. There is no audio. The original paused-browser recording was replaced after frame-count verification.
 

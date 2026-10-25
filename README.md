@@ -4,11 +4,11 @@
 
 An interactive Three.js aquascape with ray-traced refraction, schooling neon tetras and procedural aquatic plants.
 
-[![鱼缸演示预览](docs/media/aquarium-preview.gif)](https://github.com/Candela683/stillwater-aquarium/raw/refs/heads/main/docs/media/aquarium-demo.mp4)
+[![鱼缸演示预览](docs/media/aquarium-preview.gif)](https://github.com/Candela683/stillwater-aquarium/releases/download/showcase-4k-2026-10-25/aquarium-demo-4k.mp4)
 
-[观看 / 下载 24 秒 1080p 演示](https://github.com/Candela683/stillwater-aquarium/raw/refs/heads/main/docs/media/aquarium-demo.mp4) · [正面截图](docs/media/aquarium-front.png)
+[下载原生 4K 演示 · 3840 × 2160](https://github.com/Candela683/stillwater-aquarium/releases/download/showcase-4k-2026-10-25/aquarium-demo-4k.mp4) · [1080p 版本](https://github.com/Candela683/stillwater-aquarium/raw/refs/heads/main/docs/media/aquarium-demo.mp4) · [正面截图](docs/media/aquarium-front.png)
 
-演示来自本项目的实际 WebGL 画布，采用固定时间步长逐帧导出，再合成为 30 fps 视频；包含镜头环绕和一次鱼群惊吓，不代表设备的实时帧率。录制日期：2026-10-24。
+4K 演示于 2026-10-25 以 3840 × 2160 的 WebGL 画布重新渲染，时长 24 秒、30 fps。采用固定时间步长逐帧导出，包含镜头环绕和一次鱼群惊吓；视频帧率不代表设备的实时性能。[发布页与文件校验值](https://github.com/Candela683/stillwater-aquarium/releases/tag/showcase-4k-2026-10-25)。
 
 <details>
 <summary>高清截图</summary>
